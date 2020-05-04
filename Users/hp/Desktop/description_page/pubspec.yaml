@@ -1,0 +1,28 @@
+name: descriptionpage
+description: Descption page
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+  carousel_slider: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/picolos.jpg
+    - assets/picolos2.jpg
+    - assets/picolos3.jpg
+    - assets/picolos4.jpg
+
